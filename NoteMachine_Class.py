@@ -18,8 +18,6 @@ class Note():
 
         self.wakeup = schedule.every().day.at(self.time).do(hello)
 
-    def task_show(self):
-        return self.time + ": " + self.notes
 
     def task_cancel(self):
         schedule.cancel_job(self.wakeup)
