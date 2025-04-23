@@ -1,5 +1,6 @@
 # NoteCreator-files
-My PyQt5 small learn project
+This is my beginner PyQt5 project for learning purposes.
+It's a small application designed to help me practice working with GUI development, file handling, and basic class structures in Python.
 
 
 NoteCreator.bat and NoteCreator.vbs are runner files for Windows.
