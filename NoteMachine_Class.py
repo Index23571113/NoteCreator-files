@@ -1,4 +1,3 @@
-from schedule import ScheduleValueError
 from win10toast import ToastNotifier
 import schedule
 import time
@@ -48,12 +47,6 @@ def schedule_runner():
         time.sleep(1)
 
 threading.Thread(target=schedule_runner, daemon=True).start()
-
-def add(tim, title, msg):
-    try:
-        tasks[i] = Note(tim, title, msg)
-    except ScheduleValueError:
-        print(" Неверное время")
 
 
 tasks = {}
